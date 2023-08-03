@@ -1,0 +1,101 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background: #F36A6A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+#exam-paper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 540px;
+  padding: 3rem;
+  margin: auto;
+  flex-direction: column;
+  border-radius: 10px;
+  background: #FFE4E0;
+}
+#question {
+  display: flex;
+  width: 500px;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 0 30px 0;
+}
+#wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#wrapper input {
+  text-align: center;
+  padding: 0;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid #2F4858;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+#wrapper button {
+  text-align: center;
+  padding: 0;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 0 0 0 45px;
+  border: none;
+  background: #F36A6A;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+button:active {
+  opacity: 0.8;
+}
+#setting {
+  display: flex;
+  height: 100vh;
+  width: 250px;
+  background: #FFE4E0;
+}
+#setting {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#chapter {
+  margin: 0 70px 0 0;
+}
+#chapter li {
+  margin-top: 5px;
+  list-style: none;
+}
+#chapter li:first {
+  margin-top: 0;
+}
+#start {
+  margin: 30px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#start button {
+  width: 50px;
+  height: 30px;
+  background-color: #2F4858;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  margin: 0 0 0 20px;
+}
